@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+test-results/
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Debug & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Local environment files
+.env*.local
+.env
+
+# Vercel / Firebase cache
+.vercel
+.firebase
+
+# Personal chat exports and heavy media files
+*.mp4
+*.mp3
+*.opus
+chat_media/
+WhatsApp Chat*/
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
